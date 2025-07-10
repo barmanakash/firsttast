@@ -55,6 +55,10 @@ label {
 .title {
   font-weight: bold;
   flex: 1;
+  height: 17px;
+  width: 38px;
+  size: 16px;
+  font-family: 'Inter', sans-serif;
 }
 
 .badge {
@@ -63,10 +67,13 @@ label {
   font-size: 12px;
   padding: 3px 6px;
   border-radius: 4px;
+  margin-right: 35%;
 }
 
 .price {
   font-weight: bold;
+  display: flex;
+  flex-direction: column;
 }
 
 .price del {
@@ -88,6 +95,7 @@ label {
   display: flex;
   gap: 10px;
   margin-bottom: 10px;
+  justify-content: center;
 }
 
 select {
@@ -118,4 +126,12 @@ select {
   font-size: 12px;
   text-align: right;
   color: gray;
+}
+.size{
+  height: 25.31px;
+  width: 65.98px;
+}
+.textsize{
+  display: flex;
+  margin-left: calc(35% - 100px); 
 }
